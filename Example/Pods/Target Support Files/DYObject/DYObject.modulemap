@@ -1,6 +1,0 @@
-framework module DYObject {
-  umbrella header "DYObject-umbrella.h"
-
-  export *
-  module * { export * }
-}
