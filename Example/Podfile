@@ -1,7 +1,7 @@
 use_frameworks!
 
 target 'DYObject_Example' do
-  pod 'DYObject', :path => '../'
+  pod 'DYObject', :podspec => '../DYObject.podspec'
 
   target 'DYObject_Tests' do
     inherit! :search_paths

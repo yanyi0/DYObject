@@ -1,22 +1,27 @@
 {
   "name": "DYObject",
-  "version": "0.1.0",
-  "summary": "A short description of DYObject.",
-  "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/785144130@qq.com/DYObject",
+  "version": "0.0.1",
+  "summary": "NSObject的扩展",
+  "description": "获取对象的所有属性和所有方法",
+  "homepage": "https://github.com/yanyi0/DYObject",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
   },
   "authors": {
-    "785144130@qq.com": "785144130@qq.com"
+    "cloud": "785144130@qq.com"
   },
   "source": {
-    "git": "https://github.com/785144130@qq.com/DYObject.git",
-    "tag": "0.1.0"
+    "git": "https://github.com/yanyi0/DYObject.git",
+    "tag": "0.0.1"
   },
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "DYObject/Classes/**/*"
+  "source_files": "DYObject/Classes/**/*",
+  "dependencies": {
+    "AFNetworking": [
+      "~> 2.3"
+    ]
+  }
 }
